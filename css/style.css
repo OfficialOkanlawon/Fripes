@@ -1,3 +1,7 @@
+.col-lg-6, .col-lg-4, .col-lg-3, .col-sm-12, .col-sm-6 {
+    margin-top: 3px;
+}
+
 #hero {
     background:url(../img/roberto-nickson-tleCJiDOri0-unsplash\ 1.png);
     position: relative;
@@ -40,7 +44,8 @@ section {
 }
 
 .navbar a {
-    font-weight: 400;
+    font-weight: 200;
+    font-size: 15px;
 }
 
 select {
@@ -67,9 +72,20 @@ select {
     text-decoration: none;
 }
 
-form {
+.form1 form {
     color: white;
     position: absolute;
+    bottom: 10px;
+    padding: 20px 20px;
+    background-color:#11375C;
+    left: 100px;
+    z-index: 1;
+    transition: all 5s ease-in-out;
+    
+}
+form {
+    color: white;
+    /* position: absolute; */
     bottom: 10px;
     padding: 20px 20px;
     background-color:#11375C;
@@ -92,7 +108,7 @@ span {
 }
 
 .hero{
-    margin-top: 350px;
+    margin-top: 135px;
     transition: all 1s ease;
 }
 
@@ -214,19 +230,11 @@ ul li {
     width: 100%;
 }
 
-.brands {
-    width: 100%;
-    overflow: hidden;
-}
-
 .brands img {
     width: 40%;
-    overflow: hidden;
-    filter: hue-rotate();
 }
 
 .brands img:hover {
-    filter: none;
     width: 110%;
 }
 
@@ -236,5 +244,5 @@ ul li {
     padding: 7px;
     background-color: #0D2C49;
     color: white;
-    margin: 5px;
+    margin-top: 3px;
 }
