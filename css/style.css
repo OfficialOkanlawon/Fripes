@@ -1,12 +1,7 @@
 #hero {
-    /* overflow: hidden; */
-    /* width: 100%;
-    height: 100vh;
-    position: relative; */
     background:url(../img/roberto-nickson-tleCJiDOri0-unsplash\ 1.png);
     position: relative;
     background-size: cover;
-    /* padding: 150px 0; */
     width: 100%;
     height: 100vh;
     color: white;
@@ -33,6 +28,7 @@
 section {
     padding: 50px 0;
     overflow: hidden;
+    transition: all 2s ease;
 }
 
 .navbar {
@@ -44,7 +40,7 @@ section {
 }
 
 .navbar a {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 select {
@@ -78,8 +74,8 @@ form {
     padding: 20px 20px;
     background-color:#11375C;
     left: 100px;
-    z-index: 10;
-    /* margin-top: 70%; */
+    z-index: 1;
+    transition: all 5s ease-in-out;
     
 }
 
@@ -88,6 +84,7 @@ form {
     color: white;
     z-index: 1;
     position: relative;
+    z-index: 10;
 }
 
 span {
@@ -95,7 +92,7 @@ span {
 }
 
 .hero{
-    margin-top: 250px;
+    margin-top: 350px;
     transition: all 1s ease;
 }
 
@@ -181,7 +178,7 @@ ul li {
     margin-top: 70px;
 }
 
-ul li:hover {
+.ull ul li:hover {
     padding: 3px 5px;
     background-color: #FE5722;
     color: white;
@@ -215,4 +212,29 @@ ul li:hover {
 
 .gallery img {
     width: 100%;
+}
+
+.brands {
+    width: 100%;
+    overflow: hidden;
+}
+
+.brands img {
+    width: 40%;
+    overflow: hidden;
+    filter: hue-rotate();
+}
+
+.brands img:hover {
+    filter: none;
+    width: 110%;
+}
+
+.testimony {
+    width: 350px;
+    height: 300px;
+    padding: 7px;
+    background-color: #0D2C49;
+    color: white;
+    margin: 5px;
 }
